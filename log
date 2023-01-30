@@ -1,0 +1,149 @@
+<<<<<<< HEAD
+Script started on 2022-03-26 19:07:22+00:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="80" LINES="24"]
+]0;wlzhu@instance-1: ~/Project2_BL_blue[01;32mwlzhu@instance-1[00m:[01;34m~/Project2_BL_blue[00m$ git status
+On branch FrontendDeveloper
+Your branch is ahead of 'origin/FrontendDeveloper' by 27 commits.
+  (use "git push" to publish your local commits)
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31mlog[m
+
+nothing added to commit but untracked files present (use "git add" to track)
+]0;wlzhu@instance-1: ~/Project2_BL_blue[01;32mwlzhu@instance-1[00m:[01;34m~/Project2_BL_blue[00m$ git log -1
+[?1h=[33mcommit 8a1d830f61703abef15cc728f08985451f8dfddc[m[33m ([m[1;36mHEAD -> [m[1;32mFrontendDeveloper[m[33m)[m[m
+Author: Bill Zhu <wlzhu@wisc.edu>[m
+Date:   Sat Mar 26 19:05:21 2022 +0000[m
+[m
+    Added comments[m
+[K[?1l>]0;wlzhu@instance-1: ~/Project2_BL_blue[01;32mwlzhu@instance-1[00m:[01;34m~/Project2_BL_blue[00m$ make clean
+rm *.class
+rm: cannot remove '*.class': No such file or directory
+make: *** [Makefile:26: clean] Error 1
+]0;wlzhu@instance-1: ~/Project2_BL_blue[01;32mwlzhu@instance-1[00m:[01;34m~/Project2_BL_blue[00m$ ls
+FrontendDeveloperTests.java
+ICompareMatcher.java
+IRedBlackTree.java
+ISong.java
+ISongLoader.java
+ISongSearcherBackend.java
+ISongSearcherFrontend.java
+Makefile
+SongFrontendDeveloperPlaceholder.java
+SongSearcherAppFrontendDeveloperPlaceholder.java
+SongSearcherBackendFrontendDeveloperPlaceholder.java
+SongSearcherFrontend.java
+SortedCollectionInterface.java
+TextUITester.java
+[0m[01;31mjunit5.jar[0m
+log
+songs.xml
+]0;wlzhu@instance-1: ~/Project2_BL_blue[01;32mwlzhu@instance-1[00m:[01;34m~/Project2_BL_blue[00m$ make runTests
+javac -cp .:junit5.jar FrontendDeveloperTests.java -Xlint
+=======
+Script started on Wed Mar 30 18:45:57 2022
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                                [0m[27m[24m[Jhaozhewu@HZs-MBP Project2_BL_blue % [K[?2004h[7mgit status[27m
+[K[A[36C[27mg[27mi[27mt[27m [27ms[27mt[27ma[27mt[27mu[27ms[1B[K[?2004l
+On branch AlgorithmEngineer
+Your branch is up to date with 'origin/AlgorithmEngineer'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	[31mmodified:   AlgorithmEngineerTests.java[m
+	[31mmodified:   RedBlackTree.java[m
+	[31mmodified:   log[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31m.DS_Store[m
+	[31m.idea/[m
+	[31mAlgorithmEngineerTests$SongAE.class[m
+	[31mAlgorithmEngineerTests.class[m
+	[31mICompareMatcher.class[m
+	[31mIRedBlackTree.class[m
+	[31mRedBlackTree$1.class[m
+	[31mRedBlackTree$Node.class[m
+	[31mRedBlackTree.class[m
+	[31mSortedCollectionInterface.class[m
+	[31mout/[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                                [0m[27m[24m[Jhaozhewu@HZs-MBP Project2_BL_blue % [K[?2004h[7mgit log -1[27m
+[K[A[36C[27mg[27mi[27mt[27m [27ml[27mo[27mg[27m [27m-[27m1[1B[K[?2004l
+[?1h=[33mcommit 2927703bf5fc7d6430f558980291608dc581786b[m[33m ([m[1;36mHEAD -> [m[1;32mAlgorithmEngineer[m[33m, [m[1;31morigin/AlgorithmEngineer[m[33m)[m[m
+Author: Haozhe Wu <haozhew@cs.wisc.edu>[m
+Date:   Tue Mar 29 01:52:10 2022 -0500[m
+[m
+    AE update[m
+[K[?1l>[1m[7m%[27m[1m[0m                                                                                                                                                                                                                [0m[27m[24m[Jhaozhewu@HZs-MBP Project2_BL_blue % [K[?2004h[7mmake clean[27m
+[K[A[36C[27mm[27ma[27mk[27me[27m [27mc[27ml[27me[27ma[27mn[1B[K[?2004l
+rm *.class
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                                [0m[27m[24m[Jhaozhewu@HZs-MBP Project2_BL_blue % [K[?2004h[7mls[27m[27ml[27ms[?2004l
+AlgorithmEngineerTests.java	IRedBlackTree.java		ISongSearcherBackend.java	RedBlackTree.java		log
+Backup				ISong.java			ISongSearcherFrontend.java	SortedCollectionInterface.java	out
+ICompareMatcher.java		ISongLoader.java		Makefile			junit5.jar			songs.xml
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                                [0m[27m[24m[Jhaozhewu@HZs-MBP Project2_BL_blue % [K[?2004h[7mmake runTests[27m
+[K[A[36C[27mm[27ma[27mk[27me[27m [27mr[27mu[27mn[27mT[27me[27ms[27mt[27ms[1B[K[?2004l
+javac -cp .:junit5.jar AlgorithmEngineerTests.java -Xlint
+>>>>>>> 2968c8464ea277c2f5c5142146dc5c26dabc8307
+java -jar junit5.jar --class-path . --scan-classpath
+
+Thanks for using JUnit! Support its development at https://junit.org/sponsoring
+
+[36m╷[0m
+[36m├─[0m [36mJUnit Jupiter[0m [32m✔[0m
+<<<<<<< HEAD
+[36m│  └─[0m [36mFrontendDeveloperTests[0m [32m✔[0m
+[36m│     ├─[0m [34mtestDisplaySongs()[0m [32m✔[0m
+[36m│     ├─[0m [34mtestRunCommandLoop()[0m [32m✔[0m
+[36m│     ├─[0m [34mtestTitleSearch()[0m [32m✔[0m
+[36m│     ├─[0m [34mtestInsertSong()[0m [32m✔[0m
+[36m│     ├─[0m [34mtestRemoveSong()[0m [32m✔[0m
+[36m│     ├─[0m [34mtestArtistSearch()[0m [32m✔[0m
+[36m│     └─[0m [34mtestDisplayCommandMenu()[0m [32m✔[0m
+[36m└─[0m [36mJUnit Vintage[0m [32m✔[0m
+
+Test run finished after 426 ms
+=======
+[36m│  └─[0m [36mAlgorithmEngineerTests[0m [32m✔[0m
+[36m│     ├─[0m [34mtest1()[0m [32m✔[0m
+[36m│     ├─[0m [34mtest2()[0m [32m✔[0m
+[36m│     ├─[0m [34mtest3()[0m [32m✔[0m
+[36m│     ├─[0m [34mtest4()[0m [32m✔[0m
+[36m│     ├─[0m [34mtest5()[0m [32m✔[0m
+[36m│     └─[0m [34mtest6()[0m [32m✔[0m
+[36m└─[0m [36mJUnit Vintage[0m [32m✔[0m
+
+Test run finished after 41 ms
+>>>>>>> 2968c8464ea277c2f5c5142146dc5c26dabc8307
+[         3 containers found      ]
+[         0 containers skipped    ]
+[         3 containers started    ]
+[         0 containers aborted    ]
+[         3 containers successful ]
+[         0 containers failed     ]
+<<<<<<< HEAD
+[         7 tests found           ]
+[         0 tests skipped         ]
+[         7 tests started         ]
+[         0 tests aborted         ]
+[         7 tests successful      ]
+[         0 tests failed          ]
+
+]0;wlzhu@instance-1: ~/Project2_BL_blue[01;32mwlzhu@instance-1[00m:[01;34m~/Project2_BL_blue[00m$ exit
+exit
+
+Script done on 2022-03-26 19:08:00+00:00 [COMMAND_EXIT_CODE="0"]
+=======
+[         6 tests found           ]
+[         0 tests skipped         ]
+[         6 tests started         ]
+[         0 tests aborted         ]
+[         6 tests successful      ]
+[         0 tests failed          ]
+
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                                [0m[27m[24m[Jhaozhewu@HZs-MBP Project2_BL_blue % [K[?2004h[7mexit[27m[27me[27mx[27mi[27mt[?2004l
+
+Script done on Wed Mar 30 18:46:56 2022
+>>>>>>> 2968c8464ea277c2f5c5142146dc5c26dabc8307
